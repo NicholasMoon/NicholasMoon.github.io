@@ -17,29 +17,7 @@
 			<!-- Header -->
 				<section id="header">
 					<div class="container">
-					<div class="row aln-center">
-							<div class="col-8 col-6-medium col-12-small">
-
-								<!-- Feature -->
-									<section>
-										<!-- Logo -->
-							<h1 id="logo"><a href="index.html">Technical Projects</a></h1>
-							<p>I'm a second year graduate student pursuing a MSE in Computer Graphics and Game Technology (Computer Science) at the University of Pennsylvania. Previously,
-							I graduated with a double major in Computer Science and Electrical Engineering from the University of Virginia in 2021. <br><br>While I have a background in many fields of computer
-							graphics, I'm most interested in physically-based rendering, game engines, path-tracing, and GPU programming<br><br>Check out the rest of my site for info on some cool technical
-							and artistic projects I've worked on over the past.</p>
-									</section>
-
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-
-								<!-- Feature -->
-									<section>
-										<a href="#" class="image featured"><img src="images/profilepicture.jpeg" alt="" /></a>
-									</section>
-
-							</div>
-						</div>
+					<h1 id="logo"><a href="index.html">Technical Projects</a></h1>
 
 						
 
@@ -64,227 +42,132 @@
 
 					</div>
 				</section>
-
-			<!-- Features -->
-				<section id="features">
+			<!-- GPU Path Tracer -->
+				<section id="main">
 					<div class="container">
-						<header>
-							<h2>Gentlemen, behold! This is <strong>Strongly Typed</strong>!</h2>
-						</header>
-						<div class="row aln-center">
-							<div class="col-4 col-6-medium col-12-small">
+						<div id="content">
 
-								<!-- Feature -->
+							<!-- Post -->
+								<article class="box post">
+								
+									<header>
+										<h2>GPU Path Tracer</h2>
+									</header>
+									<span class="image featured"><img src="images/materials3.PNG" alt="" /></span>
+									<div class="row aln-center">
+									<div class="col-5 col-6-medium col-12-small"><section><p>Physically-Based Path Tracer for the GPU written in C++ and OpenGL. 
+									Utilizes QT GUI functionality for interactably setting camera parameters including depth of field.</p></section></div>
+									<div class="col-5 col-6-medium col-12-small">
 									<section>
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-										<header>
-											<h3>Okay, so what is this?</h3>
-										</header>
-										<p>This is <strong>Strongly Typed</strong>, a free, fully responsive site template
-										by <a href="http://html5up.net">HTML5 UP</a>. Free for personal and commercial use under the
-										<a href="http://html5up.net/license">CCA 3.0 license</a>.</p>
+										<li>Multiple Importance Sampling</li>
+										<li>Torrance-Sparrow (GGX) Microfacet Model</li>
+										<li>Texture Mapping for Albedo, Normals, Emission, and Roughness</li>
+										<li>Thin-Film Interference BRDF</li>
+										<li>And More!</li>
 									</section>
+									</div>
+									</div>
+									
+								</article>
 
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-
-								<!-- Feature -->
-									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>Nice! What is HTML5 UP?</h3>
-										</header>
-										<p><a href="http://html5up.net">HTML5 UP</a> is a side project of <a href="http://twitter.com/ajlkn">AJ’s</a> (= me).
-										I started it as a way to both test my responsive tools and sharpen up my coding
-										and design skills a bit.</p>
-									</section>
-
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-
-								<!-- Feature -->
-									<section>
-										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>What's this built with?</h3>
-										</header>
-										<p><strong>Responsive Tools</strong> is a simple set of tools for building responsive
-										sites and apps. All of my templates at <a href="http://html5up.net">HTML5 UP</a> are built using these tools.</p>
-									</section>
-
-							</div>
-							<div class="col-12">
-								<ul class="actions">
-									<li><a href="#" class="button icon solid fa-file">Tell Me More</a></li>
-								</ul>
-							</div>
 						</div>
 					</div>
 				</section>
-
-			<!-- Banner -->
-				<section id="banner">
-					<div class="container">
-						<p>Use this space for <strong>profound thoughts</strong>.<br />
-						Or an enormous ad. Whatever.</p>
-					</div>
-				</section>
-
-			<!-- Main -->
+				<!-- Mesh Stylization -->
 				<section id="main">
 					<div class="container">
-						<div class="row">
+						<div id="content">
 
-							<!-- Content -->
-								<div id="content" class="col-8 col-12-medium">
+							<!-- Post -->
+								<article class="box post">
+								
+									<header>
+										<h2>Mesh Stylization Maya Plugin</h2>
+									</header>
+									<span class="image featured"><img src="images/shapebois.PNG" alt="" /></span>
+									<div class="row aln-center">
+									<div class="col-5 col-6-medium col-12-small"><section><p>Autodesk Maya Plugin developed in C++ and the Maya API.
+									Based on the SIGGRAPH Asia paper Cubic Stylization (Liu and Jacobson 2019). 
+									The plugin allows an artist to deform a mesh into multiple shapes based on a desired weighting.</p></section></div>
+									<div class="col-5 col-6-medium col-12-small">
+									<section>
+										<li>Per-vertex weighting</li>
+										<li>Multithreading</li>
+										<li>Per-axis weighting</li>
+										<li>Support for multiple target shapes including cube and icosahedron</li>
+										<li>And More!</li>
+									</section>
+									</div>
+									</div>
+									
+								</article>
 
-									<!-- Post -->
-										<article class="box post">
-											<header>
-												<h2><a href="#">I don’t want to say <strong>it’s the aliens</strong> ...<br />
-												but it’s the aliens.</a></h2>
-											</header>
-											<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>I mean isn't it possible?</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-											mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-											Curabitur leo nibh, rutrum eu malesuada in tristique.</p>
-											<ul class="actions">
-												<li><a href="#" class="button icon solid fa-file">Continue Reading</a></li>
-											</ul>
-										</article>
+						</div>
+					</div>
+				</section>
+				
+				<!-- Mini Minecraft -->
+				<section id="main">
+					<div class="container">
+						<div id="content">
 
-									<!-- Post -->
-										<article class="box post">
-											<header>
-												<h2><a href="#">By the way, many thanks to <strong>regularjane</strong>
-												for these awesome demo photos</a></h2>
-											</header>
-											<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>You should probably check out her work</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-											mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-											Curabitur leo nibh, rutrum malesuada.</p>
-											<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat
-											Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula
-											vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet
-											magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in,
-											tristique at erat. Curabitur leo nibh, rutrum eu malesuada in, tristique
-											at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna
-											tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat
-											magna tempus.</p>
-											<ul class="actions">
-												<li><a href="#" class="button icon solid fa-file">Continue Reading</a></li>
-											</ul>
-										</article>
+							<!-- Post -->
+								<article class="box post">
+								
+									<header>
+										<h2>Mini Minecraft</h2>
+									</header>
+									<span class="image featured"><img src="images/miniminecraft0.png" alt="" /></span>
+									<div class="row aln-center">
+									<div class="col-5 col-6-medium col-12-small"><section><p>Minecraft-like video game partially inspired by the 
+									animated Nickelodeon show <i>Avatar: The Last Airbender</i>.
+									Developed in C++ and OpenGL in a group of 3. Some specific features I worked on include:</p></section></div>
+									<div class="col-5 col-6-medium col-12-small">
+									<section>
+										<li>Bloom filter post-process</li>
+										<li>Voxel grid lighting system</li>
+										<li>Minecraft-like chunk rendering optimizations</li>
+										<li>Waterbending, Firebending, Earthbending, and Airbending systems</li>
+										<li>And More!</li>
+									</section>
+									</div>
+									</div>
+									
+								</article>
 
-								</div>
+						</div>
+					</div>
+				</section>
+				
+				<!-- NPRPT -->
+				<section id="main">
+					<div class="container">
+						<div id="content">
 
-							<!-- Sidebar -->
-								<div id="sidebar" class="col-4 col-12-medium">
-
-									<!-- Excerpts -->
-										<section>
-											<ul class="divided">
-												<li>
-
-													<!-- Excerpt -->
-														<article class="box excerpt">
-															<header>
-																<span class="date">July 30</span>
-																<h3><a href="#">Just another post</a></h3>
-															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
-														</article>
-
-												</li>
-												<li>
-
-													<!-- Excerpt -->
-														<article class="box excerpt">
-															<header>
-																<span class="date">July 28</span>
-																<h3><a href="#">And another post</a></h3>
-															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
-														</article>
-
-												</li>
-												<li>
-
-													<!-- Excerpt -->
-														<article class="box excerpt">
-															<header>
-																<span class="date">July 24</span>
-																<h3><a href="#">One more post</a></h3>
-															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
-														</article>
-
-												</li>
-											</ul>
-										</section>
-
-									<!-- Highlights -->
-										<section>
-											<ul class="divided">
-												<li>
-
-													<!-- Highlight -->
-														<article class="box highlight">
-															<header>
-																<h3><a href="#">Something of note</a></h3>
-															</header>
-															<a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
-															<p>Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
-															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
-															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
-															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
-															<ul class="actions">
-																<li><a href="#" class="button icon solid fa-file">Learn More</a></li>
-															</ul>
-														</article>
-
-												</li>
-												<li>
-
-													<!-- Highlight -->
-														<article class="box highlight">
-															<header>
-																<h3><a href="#">Something of less note</a></h3>
-															</header>
-															<a href="#" class="image left"><img src="images/pic07.jpg" alt="" /></a>
-															<p>Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
-															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
-															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
-															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
-															<ul class="actions">
-																<li><a href="#" class="button icon solid fa-file">Learn More</a></li>
-															</ul>
-														</article>
-
-												</li>
-											</ul>
-										</section>
-
-								</div>
+							<!-- Post -->
+								<article class="box post">
+								
+									<header>
+										<h2>Non-photorealistic ray tracer</h2>
+									</header>
+									<span class="image featured"><img src="images/nprrt0.png" alt="" /></span>
+									<div class="row aln-center">
+									<div class="col-5 col-6-medium col-12-small"><section><p>Non-photorealistic ray tracer developed from complete scratch in C++. 
+									Integrates toon shading and painterly rendering into one NPR ray tracer with support for reflections and refractions.
+									Presented as a poster in SIGGRAPH 2021 with coauthor Megan Reddy.</i>.
+									<br>https://dl.acm.org/doi/10.1145/3450618.3469173</p></section></div>
+									<div class="col-5 col-6-medium col-12-small">
+									<section>
+										<li>Toon shading outlines and color gradients built into ray tracer</li>
+										<li>Octree volume partitioning for ray traversal acceleration</li>
+										<li>Paint strokes procedurally created during ray tracing</li>
+										<li>OBL and MTL loading</li>
+										<li>And More!</li>
+									</section>
+									</div>
+									</div>
+									
+								</article>
 
 						</div>
 					</div>
@@ -292,76 +175,9 @@
 
 			<!-- Footer -->
 				<section id="footer">
-					<div class="container">
-						<header>
-							<h2>Questions or comments? <strong>Get in touch:</strong></h2>
-						</header>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-								<section>
-									<form method="post" action="#">
-										<div class="row gtr-50">
-											<div class="col-6 col-12-small">
-												<input name="name" placeholder="Name" type="text" />
-											</div>
-											<div class="col-6 col-12-small">
-												<input name="email" placeholder="Email" type="text" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message"></textarea>
-											</div>
-											<div class="col-12">
-												<a href="#" class="form-button-submit button icon solid fa-envelope">Send Message</a>
-											</div>
-										</div>
-									</form>
-								</section>
-							</div>
-							<div class="col-6 col-12-medium">
-								<section>
-									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
-									leo nibh, rutrum eu malesuada.</p>
-									<div class="row">
-										<div class="col-6 col-12-small">
-											<ul class="icons">
-												<li class="icon solid fa-home">
-													1234 Somewhere Road<br />
-													Nashville, TN 00000<br />
-													USA
-												</li>
-												<li class="icon solid fa-phone">
-													(000) 000-0000
-												</li>
-												<li class="icon solid fa-envelope">
-													<a href="#">info@untitled.tld</a>
-												</li>
-											</ul>
-										</div>
-										<div class="col-6 col-12-small">
-											<ul class="icons">
-												<li class="icon brands fa-twitter">
-													<a href="#">@untitled</a>
-												</li>
-												<li class="icon brands fa-instagram">
-													<a href="#">instagram.com/untitled</a>
-												</li>
-												<li class="icon brands fa-dribbble">
-													<a href="#">dribbble.com/untitled</a>
-												</li>
-												<li class="icon brands fa-facebook-f">
-													<a href="#">facebook.com/untitled</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</section>
-							</div>
-						</div>
-					</div>
 					<div id="copyright" class="container">
 						<ul class="links">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>Nick Moon</li><li><a href="#">moonmoon@seas.upenn.edu</a></li><li><a href="#">LinkedIn</a></li><li>Website Template: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
 				</section>
