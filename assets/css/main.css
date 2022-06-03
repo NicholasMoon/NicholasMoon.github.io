@@ -130,6 +130,14 @@ input, select, textarea {
 		letter-spacing: 2px;
 		margin: 0 0 1.25em 0;
 	}
+	
+	h6 {
+		font-size: 1.45em;
+		font-weight: 400;
+		letter-spacing: 4px;
+		margin: 0 0 0 0;
+		line-height: 1.75em;
+	}
 
 	a {
 		-moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
@@ -1506,7 +1514,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 3.5em 0;
+			margin: 0 0 1.75em 0;
 		}
 
 		.image.left {
@@ -1837,7 +1845,8 @@ input, select, textarea {
 
 /* Box */
 
-	.no-sidebar .box.post > header {
+	.no-sidebar .box.post > 
+	{
 		text-align: center;
 	}
 
@@ -1906,10 +1915,11 @@ input, select, textarea {
 		position: relative;
 		background: #fff;
 		text-align: center;
+		
 	}
 
 		#header > .container {
-			padding: 14em 0 7em 0;
+			padding: 11em 0 2em 0;
 			border-bottom: solid 2px #e5e5e5;
 			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
 		}
@@ -1917,10 +1927,10 @@ input, select, textarea {
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
+			color: #F09527 ;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-			font-size: 3em;
-			letter-spacing: 13px;
+			font-size: 1.2em;
+			letter-spacing: 6px;
 		}
 
 			#header h1 a {
@@ -1945,7 +1955,11 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		cursor: default;
+			border-bottom: solid 2px #e5e5e5;
+			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
 	}
+	
+
 
 		#nav > ul > li {
 			display: inline-block;
@@ -2226,6 +2240,10 @@ input, select, textarea {
 			}
 
 		#footer h2 {
+			text-align: center;
+		}
+		
+		#footer h6 {
 			text-align: center;
 		}
 
