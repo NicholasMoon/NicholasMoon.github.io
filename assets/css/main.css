@@ -131,6 +131,14 @@ input, select, textarea {
 		margin: 0 0 1.25em 0;
 	}
 	
+	h5 {
+		font-size: 0.75em;
+		font-weight: 400;
+		letter-spacing: 4px;
+		margin: 0 0 0 0;
+		line-height: 1em;
+	}
+	
 	h6 {
 		font-size: 1.45em;
 		font-weight: 400;
